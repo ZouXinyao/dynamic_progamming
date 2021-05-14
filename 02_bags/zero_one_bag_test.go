@@ -17,4 +17,14 @@ func TestLastStoneWeightII(t *testing.T) {
 	t.Log(lastStoneWeightII(stone))
 }
 
+func TestFindTargetSumWays(t *testing.T) {
+	ary := []int{1, 1, 1, 1, 1}
+	t.Log(findTargetSumWays(ary, 3))
+}
+
+func TestCombinationSum4(t *testing.T) {
+	ary := []int{1,2,3}
+	t.Log(combinationSum4(ary, 4))
+}
+
 
